@@ -1,2 +1,2 @@
  FROM v7soft/baseimage
- RUN apt-get update && apt-get -y install xauth k4dirstat && echo root:root | chpasswd
+ RUN apt-get update && apt-get -y install xauth k4dirstat && echo root:root | chpasswd && apt-get clean
